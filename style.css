@@ -1,0 +1,156 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    text-align: center;
+
+}
+.one{
+    display: block;
+    width: 10%;
+    margin-top: 1px;
+    margin-left: 100px;
+    border-radius: 50%;
+}
+
+
+h1{
+ 
+   color:#1F509A;
+      font-family: "Dancing Script", cursive;
+      font-optical-sizing: auto;
+      font-weight: bold;
+      font-style: normal;
+      font-size: 50px;
+      margin:50px auto 0 auto;
+      
+    }
+   h2{ 
+    color: #5A6C57;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2 rem;
+    font-weight: normal;
+    padding-bottom: 1px;
+   }
+   
+ 
+    
+  
+  p{
+    color:#40514e;;
+  
+    font-family: "Merriweather", serif;
+  
+  font-weight:lighter;
+ 
+}
+h3{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+}
+
+.top{
+    
+    background-color:lightcyan;
+    position: relative;
+    padding-top: 50px;
+    
+}
+
+
+
+.mid{
+   
+    position: relative;
+    padding: 10px;
+}
+    
+.photo{
+   
+    border-radius: 50%;
+    border:2px solid black;
+    margin: 0%;
+}
+p{
+    text-align: left;
+    font-size: large;
+}
+
+.project{
+    background-color: beige;
+    padding: 50px;
+    
+}
+
+.first{
+    
+    margin:50px auto;
+    width:50%;
+    text-align: left;
+}
+.second{
+    margin:100px auto;
+    width:50%;
+    text-align: right;
+    
+}
+.img1{
+    float:left;
+    margin-right: 25px;
+    
+}
+.img2{
+    float: right;
+    margin-left: 25px;
+  
+}
+.btn{
+    background-color: #B3C8CF;
+    border-radius: 25%;
+    font-size: 20px;
+   }
+.bottom{
+    background-color: lightcyan;
+    margin-top: 10px;
+    padding: 100px;
+   }
+.footer{
+    margin: 15px 20px ;
+    color: #000;
+    border-radius: 10px;
+}
+.copy{
+    color: blue;
+    font-size: large;
+    text-align: center;
+
+}
+.contact > p{
+    
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+      font-style: normal;
+      font-size: 40px;
+      text-align: center;
+
+}
+@media(max-width:900px){
+    .one{
+        margin:10px;
+        padding-left: 1px;
+        width:25%;
+        
+    }
+    .img1{
+        font-size: 30px;
+        width: 150%;
+    }
+    .img2{
+        font-size: 30px;
+        width: 150%;
+    }
+}
